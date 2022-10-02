@@ -14,7 +14,7 @@ func init() {
 }
 
 func init() {
-	fmt.Println("curiously, thus will get called too")
+	fmt.Println("curiously, this will get called too")
 }
 
 func WontWork() {
