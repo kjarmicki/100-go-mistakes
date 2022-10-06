@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/kjarmicki/100-go-mistakes/interfaces"
+	interfaces "github.com/kjarmicki/100-go-mistakes/006-interfaces"
 )
 
 /*
