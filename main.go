@@ -7,5 +7,7 @@ import (
 
 func main() {
 	fmt.Println("starting main")
-	GettersAndSetters()
+	// GettersAndSetters()
+	// IntegerOverflow()
+	Slices()
 }
