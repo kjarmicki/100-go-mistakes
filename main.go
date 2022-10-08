@@ -9,5 +9,5 @@ func main() {
 	fmt.Println("starting main")
 	// GettersAndSetters()
 	// IntegerOverflow()
-	Slices()
+	NilSliceVsEmptySlice()
 }
