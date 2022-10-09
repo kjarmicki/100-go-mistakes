@@ -10,5 +10,6 @@ func main() {
 	// GettersAndSetters()
 	// IntegerOverflow()
 	// NilSliceVsEmptySlice()
-	SliceCopies()
+	// SliceCopies()
+	SliceLeakingCapacity()
 }
