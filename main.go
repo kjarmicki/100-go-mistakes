@@ -11,5 +11,6 @@ func main() {
 	// IntegerOverflow()
 	// NilSliceVsEmptySlice()
 	// SliceCopies()
-	SliceLeakingCapacity()
+	// SliceLeakingCapacity()
+	LeakyFooCheck()
 }
