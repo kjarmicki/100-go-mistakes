@@ -16,5 +16,6 @@ func main() {
 	// ComparingValues()
 	// RangeLoopsCopies()
 	// RangeLoopNotInfinite()
-	RangeLoopNoModification()
+	// RangeLoopNoModification()
+	RangeOverPointerElements()
 }
