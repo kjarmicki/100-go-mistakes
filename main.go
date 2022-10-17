@@ -14,5 +14,7 @@ func main() {
 	// SliceLeakingCapacity()
 	// LeakyFooCheck()
 	// ComparingValues()
-	RangeLoopsCopies()
+	// RangeLoopsCopies()
+	// RangeLoopNotInfinite()
+	RangeLoopNoModification()
 }
