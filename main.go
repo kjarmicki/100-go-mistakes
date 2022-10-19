@@ -17,5 +17,6 @@ func main() {
 	// RangeLoopsCopies()
 	// RangeLoopNotInfinite()
 	// RangeLoopNoModification()
-	RangeOverPointerElements()
+	// RangeOverPointerElements()
+	MapInsertDoingIteration()
 }
