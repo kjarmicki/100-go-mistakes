@@ -18,5 +18,7 @@ func main() {
 	// RangeLoopNotInfinite()
 	// RangeLoopNoModification()
 	// RangeOverPointerElements()
-	MapInsertDoingIteration()
+	// MapInsertDoingIteration()
+	// InaccurateStringIteration()
+	InefficientStringConcat()
 }
