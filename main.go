@@ -20,5 +20,7 @@ func main() {
 	// RangeOverPointerElements()
 	// MapInsertDoingIteration()
 	// InaccurateStringIteration()
-	InefficientStringConcat()
+	// InefficientStringConcat()
+	// UsingANilReceiver()
+	NilPointerCheck()
 }
