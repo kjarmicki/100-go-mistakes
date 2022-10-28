@@ -22,5 +22,6 @@ func main() {
 	// InaccurateStringIteration()
 	// InefficientStringConcat()
 	// UsingANilReceiver()
-	NilPointerCheck()
+	// NilPointerCheck()
+	DeferArgumentEvaluation()
 }
