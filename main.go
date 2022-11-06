@@ -23,5 +23,9 @@ func main() {
 	// InefficientStringConcat()
 	// UsingANilReceiver()
 	// NilPointerCheck()
-	DeferArgumentEvaluation()
+	// DeferArgumentEvaluation()
+	// DataRace()
+	// AtomicIncDataRace()
+	// MutexIncDataRace()
+	ChannelIncDataRace()
 }
