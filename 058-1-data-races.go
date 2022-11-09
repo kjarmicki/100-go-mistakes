@@ -6,13 +6,18 @@ import (
 	"sync/atomic"
 )
 
-func dataRace(executor func() bool) {
+/*
+ * Data races occur when multiple goroutines access the same memory location simultaneously
+ * and at least one of them is writing.
+ */
+
+func race(verifyDeterminism func() bool) {
 	for i := 0; i < 100_000; i++ {
-		if !executor() {
-			panic(fmt.Sprintf("kaboom, data race at %d attempt\n", i))
+		if !verifyDeterminism() {
+			panic(fmt.Sprintf("kaboom, race at %d attempt\n", i))
 		}
 	}
-	fmt.Println("no data race detected")
+	fmt.Println("no race detected")
 }
 
 // non-deterministic
@@ -40,7 +45,7 @@ func plainInc() int {
 }
 
 func PlainIncDataRace() {
-	dataRace(func() bool {
+	race(func() bool {
 		return plainInc() == 2
 	})
 }
@@ -67,7 +72,7 @@ func atomicInc() int64 {
 }
 
 func AtomicIncDataRace() {
-	dataRace(func() bool {
+	race(func() bool {
 		return atomicInc() == int64(2)
 	})
 }
@@ -99,7 +104,7 @@ func mutexInc() int {
 }
 
 func MutexIncDataRace() {
-	dataRace(func() bool {
+	race(func() bool {
 		return mutexInc() == 2
 	})
 }
@@ -126,7 +131,7 @@ func channelInc() int {
 }
 
 func ChannelIncDataRace() {
-	dataRace(func() bool {
+	race(func() bool {
 		return channelInc() == 2
 	})
 }

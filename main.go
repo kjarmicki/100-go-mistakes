@@ -27,5 +27,7 @@ func main() {
 	// DataRace()
 	// AtomicIncDataRace()
 	// MutexIncDataRace()
-	ChannelIncDataRace()
+	// ChannelIncDataRace()
+	// RaceCondition()
+	ReadSunset()
 }
