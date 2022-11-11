@@ -29,5 +29,6 @@ func main() {
 	// MutexIncDataRace()
 	// ChannelIncDataRace()
 	// RaceCondition()
-	ReadSunset()
+	// ReadSunset()
+	SelectChannels()
 }
