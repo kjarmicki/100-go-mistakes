@@ -30,5 +30,6 @@ func main() {
 	// ChannelIncDataRace()
 	// RaceCondition()
 	// ReadSunset()
-	SelectChannels()
+	// SelectChannels()
+	StringDeadlock()
 }
