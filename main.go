@@ -31,5 +31,8 @@ func main() {
 	// RaceCondition()
 	// ReadSunset()
 	// SelectChannels()
-	StringDeadlock()
+	// StringDeadlock()
+	// DonationMutex()
+	// DonationChannels()
+	DonationCond()
 }
