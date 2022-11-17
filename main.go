@@ -34,5 +34,6 @@ func main() {
 	// StringDeadlock()
 	// DonationMutex()
 	// DonationChannels()
-	DonationCond()
+	// DonationCond()
+	TestCounter()
 }
