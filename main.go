@@ -35,5 +35,6 @@ func main() {
 	// DonationMutex()
 	// DonationChannels()
 	// DonationCond()
-	TestCounter()
+	// TestCounter()
+	JsonMarshalEmbeddedType()
 }
