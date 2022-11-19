@@ -36,5 +36,6 @@ func main() {
 	// DonationChannels()
 	// DonationCond()
 	// TestCounter()
-	JsonMarshalEmbeddedType()
+	// JsonMarshalEmbeddedType()
+	JsonMarshalMap()
 }
