@@ -37,5 +37,6 @@ func main() {
 	// DonationCond()
 	// TestCounter()
 	// JsonMarshalEmbeddedType()
-	JsonMarshalMap()
+	// JsonMarshalMap()
+	DataRaceFlagSimple()
 }
