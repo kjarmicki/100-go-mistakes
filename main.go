@@ -38,5 +38,6 @@ func main() {
 	// TestCounter()
 	// JsonMarshalEmbeddedType()
 	// JsonMarshalMap()
-	DataRaceFlagSimple()
+	// DataRaceFlagSimple()
+	PprofServer()
 }
